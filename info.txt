@@ -1,0 +1,29 @@
+Next js 
+    React framework
+    Provide things like folder structure, hot reloading, server side rendering support, easy to integrate with prisma
+
+Prisma
+    ORM layer that interact with the database 
+
+Apollo client
+    Query layer that's able to fetch data with GraphQL
+    Apollo Studio (replaced Apollo Playground) is a browser based API testing tool use to run query/mutation operations
+
+
+PC -> Localhost
+    DATABASE_URL="postgres://postgres:10prestige@localhost:5432/links"
+
+Cloud.prisma.io -> gonna be different every project
+    DATABASE_URL="postgres://crbyalerphffgs:5d1122ce7706c71c794fe36eb701e3c6a3961d06b3661498852b6ad982be5c8e@ec2-52-86-193-24.compute-1.amazonaws.com:5432/d93eahfmt60h1e"
+
+
+# Use the following connection string to query your database. This is a Prisma Data Proxy URL. You must use it to query your database from your serverless function to take advantage of advanced connection pooling. 
+# Remember to keep this URL safe, you will not be able to see it again. You will be able to create more later.
+
+    # prisma://aws-us-east-1.prisma-data.com/?api_key=suTK-quKLcafJNoMVFueJL5A5jhnnT_0yl23XnNMXQkGiBDDdzjDh89j2_MhxS8Z
+
+
+# Use your real connection string to run migrations on your database:
+    # postgres://crbyalerphffgs:5d1122ce7706c71c794fe36eb701e3c6a3961d06b3661498852b6ad982be5c8e@ec2-52-86-193-24.compute-1.amazonaws.com:5432/d93eahfmt60h1e
+
+
